@@ -1,0 +1,120 @@
+
+.register{
+	width:320px;
+	margin:0 auto;
+	padding:0.5em;
+    background-color:#06A7A7;
+    border-radius:10px;
+	color:#FFF;
+	font-size:12pt;
+
+}
+.register form{
+}
+.register fieldset{
+	width:300px;
+}
+.register legend{
+	width:100%;
+color:#FFF;
+font-size:18pt;
+padding: 0 10px;
+}
+.register fieldset form{
+padding:0.3em;	
+}
+.register fieldset form select{
+	width:50%;
+	height:34px;
+	margin:7px 0 8px 0;
+	font-size:15pt;
+	border-radius:10px;
+	color: #06A7A7;
+}
+.register fieldset form p input{
+font-size:12pt;
+
+	}
+	.register fieldset form p label{
+font-size:5pt;
+text-align:left;
+
+
+	}
+.register fieldset form input{
+	width:100%;
+	height:34px;
+	margin:7px 0 8px 0;
+	font-size:15pt;
+	color:#06A7A7;
+	border:0;
+	outline-color: #4D2C24;
+	outline: 2px;
+}
+.register fieldset  form input:valid{
+border:2px solid #06A7A7;
+}
+.register fieldset  form input:invalid{
+border:2px solid #FFF;
+}
+.register fieldset form p{
+	margin:7px 0 8px 0;
+	font-size:15pt;
+}
+.register fieldset form p label{
+	width: 87%;
+	display:inline-block;
+	font-size:15pt;
+}
+.register fieldset form  p input[type="radio"]{
+	width: 10%;
+	display:inline-block;
+	padding: 0 5% 0 2%;
+	height:20px;
+	vertical-align: middle;
+	line-height: 18px;
+	cursor:pointer;
+}
+.register fieldset form p a{
+	color:#FFF;
+}
+.register fieldset form p input[type="submit"]{
+	display:block;
+	margin:0 auto;
+	height:auto;
+	background-color:#298D22;
+	color:#FFF;
+}
+.formulario fieldset > form > p input[type="reset"]{
+    background-color:#068CA7;
+    outline:none;
+    padding:10px;
+    height:100px;
+}
+.register p{
+	margin:7px 0 12px 0;
+	padding:0.3em;
+	font-size:11pt;
+}
+.register fieldset form p,.register fieldset form p a{
+	color:#FFF;
+	font-size:9pt;
+}
+.login {
+	height:auto;
+}
+@media screen and (min-width: 641px){
+	.register{
+		width:480px;
+	}
+	.register legend{
+font-size:25pt;
+}
+	.register fieldset{
+	width:460px;
+}
+	.register fieldset form{
+	width:460px;
+}
+
+}

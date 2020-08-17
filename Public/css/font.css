@@ -1,0 +1,17 @@
+@font-face{
+	font-family:titulos;
+	src:url(Font/Futura/futura xblk bt.ttf);
+}
+@font-face{
+	font-family:present;
+	src:url(Font/Futura/futura light bt.ttf);
+}
+@font-face{
+	font-family:body;
+	src:url(Font/Helvetica/Helvetica World/HelveticaWorld-Regular.ttf);
+}
+@font-face{
+	font-family:nav;
+	src:url(Font/Roman/Fonts/arb 08_an_cas.ttf);
+}
+@import url(http://allfont.es/allfont.css?fonts=caslon);
