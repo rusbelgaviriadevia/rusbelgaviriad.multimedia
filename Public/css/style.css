@@ -755,7 +755,7 @@ footer p{
 	text-align:center;
 }
 }
-@media screen and (min-width:1366px) and (max-width:1920px){
+@media screen and (min-width:1366px){
 nav{
  	display:flex;
 	width:240px;
@@ -890,9 +890,7 @@ button {
     margin-right: 1.5625%;
     overflow:auto;
 }
-.redes figure a{
-	
-}
+
 .redes figure a img{
 	overflow:hidden;
 	width:100%;
