@@ -221,13 +221,13 @@ section{
 	display:flex;
 	flex-wrap:wrap;
 	flex-direction:row;
-	align-items:flex-start;
+	align-items:flex-end;
 	justify-content:center;
 	width:320px;
-	max-height:314px;
+	max-height:400px;
 	float:none;
 	color:#000;
-	margin-top:0px;
+	margin-top:20px;
 	margin:0 auto;
 	font-family:futura, Rubik, "sans-serif";
 	font-size:0.813em;
@@ -279,7 +279,7 @@ article{
 .prog-enl,.Aud-enl,.dis-enl{
 	flex-wrap:wrap;
 	width:100%;
-	height:120px;
+	height:150px;
 	margin:20 auto;
 	float:none;
 	border-radius:20.63px;
@@ -303,7 +303,7 @@ article{
 .prog-enl div, .Aud-enl div,.dis-enl div{
 	display: inline-flex;
 	flex-wrap:wrap;
-	width:48.75%;
+	width:40.75%;
 	padding: 0.5em 1em;
 	font-size:0.75em;
 	text-align:left;
@@ -413,7 +413,14 @@ input:focus, textarea:focus{
 }
 button{
     /* Para posicionar los botones a la misma posición que los campos de texto */
-    padding-left: 90px; /* mismo tamaño a todos los elementos label */
+	padding:0.05em; /* mismo tamaño a todos los elementos label */
+	margin:10px auto;
+	width:140px;
+	height:25px;
+	background-color:#5B2F16;
+	text-align:center;
+	color:#FFF;
+	border-radius:10px;
 }
 input[type="submit"]{
     /* Este margen extra representa aproximadamente el mismo espacio que el espacio
@@ -907,4 +914,12 @@ footer p{
 	text-align:center;
 }
 }
-
+@media screen and (min-width:1921px){
+	.contact{
+		margin-top:200px;
+		margin-left:1.519%;
+	}
+	form{
+		width:25%;
+	}
+}
