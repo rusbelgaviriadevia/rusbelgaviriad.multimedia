@@ -915,9 +915,15 @@ footer p{
 }
 }
 @media screen and (min-width:1921px){
+	.present{
+		width:25%;
+		max-height:auto;
+		
+	}
 	.contact{
 		margin-top:200px;
 		margin-left:1.519%;
+		width:25%;
 	}
 	form{
 		width:25%;
