@@ -340,13 +340,14 @@ article{
 	justify-content: center;
 	align-items:center;
 	border-radius:20.63px;
-	padding:0.5em;
+	padding:1em;
 	max-width:480px;
 	z-index:2;
 }
 .contact h2{
 	font-weight:bold;
 	font-size:2.3em;
+	padding:0.5em;
 }
 .contact p{
 	font-size:1.063em;
@@ -669,6 +670,7 @@ section{
 	padding:0% 4.025%;
 }
 .colum-1 div{
+	flex-direction: row;
 	width:100%;
 }
 .colum-2{
