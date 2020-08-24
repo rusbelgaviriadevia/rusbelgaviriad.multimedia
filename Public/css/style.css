@@ -663,7 +663,7 @@ section{
 .present{
 	float:right;
 	font-size:0.75em;
-	flex-direction:row;
+	flex-direction:column;
 }
 .colum-1{
 	flex-direction: column;
