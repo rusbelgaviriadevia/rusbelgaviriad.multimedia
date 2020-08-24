@@ -666,19 +666,13 @@ section{
 	flex-direction:column;
 }
 .colum-1{
-	flex-direction: column;
-	align-items:flex-start;
-	height:auto;
 	padding:0% 4.025%;
-	width:auto;
 }
 .colum-1 div{
 	width:100%;
 }
 .colum-2{
 	margin-top:20px;
-	height:auto;
-	width:auto;
 }
 .colum-2 p{
 	width:100%;
