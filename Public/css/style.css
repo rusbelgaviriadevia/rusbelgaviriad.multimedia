@@ -237,7 +237,7 @@ section{
 	display:flex;
 	flex-wrap:wrap;
 	flex-direction: column-reverse;
-	align-items:flex-start;
+	align-items:flex-end;
 	width:50%;
 	height:314px;
 	padding:0% 3.125%;
@@ -340,7 +340,7 @@ article{
 	justify-content: center;
 	align-items:center;
 	border-radius:20.63px;
-	padding:0.5em;
+	padding:1em;
 	max-width:480px;
 	z-index:2;
 }
@@ -515,7 +515,7 @@ section{
 	padding:0% 1.25%;
 }
 .colum-1{
-	flex-direction:column;
+	flex-direction:row;
 	width:100%;
 	height:324.32px;
 }
@@ -669,6 +669,7 @@ section{
 	padding:0% 4.025%;
 }
 .colum-1 div{
+	flex-direction: row;
 	width:100%;
 }
 .colum-2{
