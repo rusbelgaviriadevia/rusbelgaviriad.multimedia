@@ -226,7 +226,7 @@ section{
 	width:320px;
 	max-height:400px;
 	float:none;
-	color:#068CA7;
+	color:#1a6dd9;
 	margin-top:20px;
 	margin:0 auto;
 	font-family:futura, Rubik, "sans-serif";
@@ -289,15 +289,15 @@ article{
 	justify-content: space-around;
 }
 .prog-enl{
-	background-color:#4D2C24;
+	background-color:#691f17;
 	flex-direction: row-reverse;
 }
 .Aud-enl{
-	background-color:#068CA7;
+	background-color:#1a6dd9;
 	flex-direction: row;
 }
 .dis-enl{	
-	background-color:#298D22;
+	background-color:#b0c74e;
 	flex-direction: row-reverse;
 
 }
