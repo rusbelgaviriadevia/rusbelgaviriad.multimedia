@@ -659,7 +659,7 @@ section{
 }
 
 .prog-enl,.Aud-enl,.dis-enl{
-	 width:30%;
+	width:30%;
 	height:360px;
 	}
 .prog-enl{
@@ -779,6 +779,7 @@ section{
 	float:right;
 	margin-bottom:10px;
 	margin-right:0%;
+	border:0 solid 2px;
 }
 .present{
 	float:right;
